@@ -1,0 +1,42 @@
+{
+  "_comment": "Steadygut. Change a value, run tools/publish-config, wait up to 10 min. Keys you delete fall back to the app's built-in defaults. See docs/owner.md. Health app: only trial and purchase may go to AppsFlyer, never diary data.",
+  "paywall": {
+    "close_delay": 3,
+    "title": "Find your triggers",
+    "benefits": []
+  },
+  "review": {
+    "milestones": [
+      3,
+      7,
+      14,
+      30
+    ],
+    "min_days_between": 14
+  },
+  "flags": {
+    "skan_updates": true,
+    "attribution_sdk": false,
+    "remote_push": false
+  },
+  "attribution": {
+    "appsflyer_dev_key": "",
+    "att_wait_seconds": 60,
+    "events": {
+      "trial_start": "af_start_trial",
+      "purchase": "af_purchase"
+    },
+    "parameters": [
+      "product_id",
+      "plan"
+    ]
+  },
+  "push": {
+    "endpoint": ""
+  },
+  "unity_ads": {
+    "game_id": "",
+    "interstitial_placement": "",
+    "interstitial_every": 0
+  }
+}

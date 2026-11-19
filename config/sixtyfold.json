@@ -1,0 +1,42 @@
+{
+  "_comment": "Sixtyfold. Change a value, run tools/publish-config, wait up to 10 min. Keys you delete fall back to the app's built-in defaults. See docs/owner.md.",
+  "paywall": {
+    "close_delay": 3,
+    "title": "Make all 60 days count",
+    "benefits": [
+      { "icon": "checklist", "text": "Every habit in your plan, no limit" },
+      { "icon": "target", "text": "Goals with milestones and an ahead / behind check" },
+      { "icon": "chart.bar.fill", "text": "Life areas, focus and consistency scores" },
+      { "icon": "lock.iphone", "text": "All widgets for your Home and Lock Screen" }
+    ]
+  },
+  "review": {
+    "milestones": [3, 7, 21, 45],
+    "min_days_between": 14
+  },
+  "flags": {
+    "coach": false,
+    "skan_updates": true,
+    "attribution_sdk": false,
+    "remote_push": false
+  },
+  "attribution": {
+    "appsflyer_dev_key": "",
+    "att_wait_seconds": 60,
+    "events": {
+      "plan_shown": "af_complete_registration",
+      "paywall_shown": "paywall_shown",
+      "trial_start": "af_start_trial",
+      "purchase": "af_purchase"
+    },
+    "parameters": ["product_id", "plan", "source"]
+  },
+  "push": {
+    "endpoint": ""
+  },
+  "unity_ads": {
+    "game_id": "",
+    "interstitial_placement": "",
+    "interstitial_every": 0
+  }
+}
