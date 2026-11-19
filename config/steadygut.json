@@ -11,8 +11,7 @@
       7,
       14,
       30
-    ],
-    "min_days_between": 14
+    ]
   },
   "flags": {
     "skan_updates": true,
@@ -21,7 +20,6 @@
   },
   "attribution": {
     "appsflyer_dev_key": "",
-    "att_wait_seconds": 60,
     "events": {
       "trial_start": "af_start_trial",
       "purchase": "af_purchase"
